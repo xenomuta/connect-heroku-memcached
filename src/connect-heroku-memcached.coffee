@@ -18,7 +18,7 @@ module.exports = (connect) ->
       client.get sid, (err, val, flags) ->
         try
           session = JSON.parse(val.toString())
-        session = (if val&&val.length > 0 then val.toString() else {cookie:{}}) unless session?
+        session = (if val?.length > 0 then val.toString() else {cookie:{}} ) unless session?
         session.cookie = {} unless session.cookie?
         callback err, session
     set: (sid, session, callback)  ->
