@@ -1,0 +1,25 @@
+{
+  "name": "connect-heroku-memcached",
+  "version": "0.0.1",
+  "description": "A connect session store that implements the memcached binary protocol for use with heroku and others",
+  "main": "lib/connect-heroku-memcached.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xenomuta/connect-heroku-memcached.git"
+  },
+  "keywords": [
+    "memcached",
+    "connect",
+    "express",
+    "nodejs",
+    "heroku"
+  ],
+  "author": "Rilke Petrosky Ulloa (XenoMuta)",
+  "license": "GPLv3",
+  "dependencies": {
+    "memjs": "~0.4.0"
+  }
+}
