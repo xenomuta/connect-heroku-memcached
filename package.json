@@ -1,6 +1,6 @@
 {
   "name": "connect-heroku-memcached",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A connect session store that implements the memcached binary protocol for use with heroku and others",
   "main": "lib/connect-heroku-memcached.js",
   "scripts": {
@@ -20,6 +20,6 @@
   "author": "Rilke Petrosky Ulloa (XenoMuta)",
   "license": "GPLv3",
   "dependencies": {
-    "memjs": "~0.4.0"
+    "memjs": "~0.6.0"
   }
 }
