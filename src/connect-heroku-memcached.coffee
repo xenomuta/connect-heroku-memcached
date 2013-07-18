@@ -1,4 +1,4 @@
-{Client,Server} = require('memjs')
+{Client, Server} = require('memjs')
 
 module.exports = (connect) ->
   Store = connect.session.Store
@@ -22,12 +22,9 @@ module.exports = (connect) ->
         session.cookie = {} unless session.cookie?
         callback err, session
     set: (sid, session, callback)  ->
-      client.set sid, JSON.stringify(session), (err, val) ->
-        callback err, val
+      client.set sid, JSON.stringify(session), callback
     destroy: (sid, callback) ->
-      client.delete sid, (err, val) ->
-        callback err, val
-
+      client.delete sid, callback
     # TODO: find out how do I implement this
     length:(callback)->callback false
     clear:(callback) ->callback false
