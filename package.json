@@ -20,6 +20,6 @@
   "author": "Rilke Petrosky Ulloa (XenoMuta)",
   "license": "GPLv3",
   "dependencies": {
-    "memjs": "~0.6.0"
+    "memjs": "~0.7.0"
   }
 }
