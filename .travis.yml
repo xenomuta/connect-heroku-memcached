@@ -2,6 +2,11 @@ language: node_js
 node_js:
   - 0.10
   - 0.11
+branches:
+  only:
+    - master
+install:
+  - npm install
 notifications:
   email:
     - xenomuta@gmail.com
