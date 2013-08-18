@@ -1,10 +1,10 @@
 {
   "name": "connect-heroku-memcached",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A connect session store that implements the memcached binary protocol for use with heroku and others",
   "main": "lib/connect-heroku-memcached.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "license": "GPLv3",
   "dependencies": {
     "memjs": "~0.7.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "should": "~1.2.2"
   }
 }
