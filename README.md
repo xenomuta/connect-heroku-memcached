@@ -10,6 +10,12 @@ Thanks to memcache binary protocol implementation in alevy's [memjs](https://git
   npm install connect-heroku-memcached
 ~~~
 
+## Test
+
+~~~sh
+  npm test
+~~~
+
 ## Usage
 
 ~~~javascript
