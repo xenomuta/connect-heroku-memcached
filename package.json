@@ -1,6 +1,6 @@
 {
   "name": "connect-heroku-memcached",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A connect session store that implements the memcached binary protocol for use with heroku and others",
   "main": "lib/connect-heroku-memcached.js",
   "scripts": {
@@ -17,11 +17,21 @@
     "nodejs",
     "heroku"
   ],
+  "contributors": [
+    {
+      "name": "Rilke Petrosky (XenoMuta)",
+      "email": "xenomuta@gmail.com"
+    },
+    {
+      "name": "João Neto",
+      "email": "<joaopintoneto@gmail.com>"
+    }
+  ],
   "maintainers": [
     "xenomuta <xenomuta@gmail.com>",
-    "joaoneto <joaopintoneto@gmail.com>"
+    "João Neto <joaopintoneto@gmail.com>"
   ],
-  "author": "Rilke Petrosky Ulloa (XenoMuta) <xenomuta@gmail.com>",
+  "author": "Rilke Petrosky (XenoMuta) <xenomuta@gmail.com>",
   "users": {
     "xenomuta": true,
     "joaoneto": true
