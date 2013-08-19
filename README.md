@@ -1,4 +1,4 @@
-# Connect Heroku Memcached
+# Connect Heroku Memcached [![Build Status](https://travis-ci.org/xenomuta/connect-heroku-memcached.png?branch=master)](https://travis-ci.org/xenomuta/connect-heroku-memcached)
 
 A connect session store that implements the memcached binary protocol for use with heroku's and others memcache services.
 
